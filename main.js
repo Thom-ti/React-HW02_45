@@ -1,10 +1,6 @@
 function App() {
   const [counters, setCounters] = React.useState([
-    { id: 1, number: 0 },
-    { id: 2, number: 0 },
-    { id: 3, number: 0 },
-    { id: 4, number: 0 },
-    { id: 5, number: 0 },
+    { id: 1, number: 0 }
   ]);
 
   const updateCounter = (id, n) => {
