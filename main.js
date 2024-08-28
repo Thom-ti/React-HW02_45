@@ -21,7 +21,7 @@ function App() {
     setCounters((prev) => prev.filter((el) => el.id !== id));
   }
   function addCounter() {
-    setCounters([...counters, { id: counters.length + 1, number: 0 }])
+    setCounters([...counters, { id: Math.floor(Math.random()*1000000), number: 0 }])
   }
 
   return (
